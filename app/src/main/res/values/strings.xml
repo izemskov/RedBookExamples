@@ -27,6 +27,6 @@
     <string name="ExZagol9">Example 9</string>
     <string name="ExText9">3D color overlay</string>
 
-    <string name="Info1">Source code http://code.google.com/p/opengl-red-book-examples/</string>
-    <string name="Info2">Автор иконки приложения http://softicons.com/free-icons/designers/c55inator</string>
+    <string name="Info1">Source code: https://github.com/izemskov/RedBookExamples</string>
+    <string name="Info2">Icon app author: http://softicons.com/free-icons/designers/c55inator</string>
 </resources>

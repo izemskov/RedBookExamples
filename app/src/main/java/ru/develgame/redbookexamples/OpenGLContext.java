@@ -34,14 +34,14 @@ public class OpenGLContext extends Activity {
 
         if ((renderer.GetExampleNum() == 5) || (renderer.GetExampleNum() == 7) || (renderer.GetExampleNum() == 6)) {
             Context context = getApplicationContext();
-            Toast toast = Toast.makeText(context, "����������� ������� ����", Toast.LENGTH_LONG);
+            Toast toast = Toast.makeText(context, "Use double tap", Toast.LENGTH_LONG);
             toast.setGravity(Gravity.BOTTOM, 0, 50);
             toast.show();
         }
 
         if (renderer.GetExampleNum() == 4) {
             Context context = getApplicationContext();
-            Toast toast = Toast.makeText(context, "������� � ���������", Toast.LENGTH_LONG);
+            Toast toast = Toast.makeText(context, "Tap and swipe", Toast.LENGTH_LONG);
             toast.setGravity(Gravity.BOTTOM, 0, 50);
             toast.show();
         }
