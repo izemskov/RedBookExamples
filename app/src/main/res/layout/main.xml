@@ -2,18 +2,19 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/scroll"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content" >
+    android:layout_height="wrap_content"
+    android:background="#000000">
 
     <TableLayout
         android:id="@+id/tableLayout8"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <TableRow
             android:id="@+id/tableRow1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
 
             <ImageView
@@ -21,48 +22,48 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15px"
-                android:layout_marginRight="15px"
                 android:layout_marginTop="15px"
-                android:src="@drawable/example1"
+                android:layout_marginRight="15px"
                 android:clickable="true"
-                android:onClick="textOnClick1" />
+                android:onClick="textOnClick1"
+                android:src="@drawable/example1" />
 
             <TableLayout
                 android:id="@+id/tableLayout1"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <TableRow
                     android:id="@+id/tableRow13"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
                         android:clickable="true"
                         android:onClick="textOnClick1"
                         android:text="@string/ExZagol1"
-                        android:textStyle="bold"
                         android:textColor="#ffffff"
-                        android:layout_marginTop="10px" />
+                        android:textStyle="bold" />
 
                 </TableRow>
 
                 <TableRow
                     android:id="@+id/tableRow15"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/ExText1"
-                        android:textColor="#ffffff"
                         android:clickable="true"
-                        android:onClick="textOnClick1" />
+                        android:onClick="textOnClick1"
+                        android:text="@string/ExText1"
+                        android:textColor="#ffffff" />
 
                 </TableRow>
             </TableLayout>
@@ -72,13 +73,12 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="2px"
-            android:orientation="vertical"
-            android:background="#cccccc"
             android:layout_marginLeft="10px"
             android:layout_marginTop="10px"
-            android:layout_marginBottom="5px"
             android:layout_marginRight="10px"
-            >
+            android:layout_marginBottom="5px"
+            android:background="#cccccc"
+            android:orientation="vertical">
 
         </LinearLayout>
 
@@ -86,44 +86,44 @@
         <TableRow
             android:id="@+id/tableRow3"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/example2"
+                android:layout_marginTop="5px"
                 android:clickable="true"
                 android:onClick="textOnClick2"
-                android:layout_marginTop="5px" />
+                android:src="@drawable/example2" />
 
             <TableLayout
                 android:id="@+id/tableLayout2"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <TableRow
                     android:id="@+id/tableRow12"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/ExZagol2"
-                        android:textStyle="bold"
-                        android:textColor="#ffffff"
                         android:clickable="true"
-                        android:onClick="textOnClick2" />
+                        android:onClick="textOnClick2"
+                        android:text="@string/ExZagol2"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
 
                 </TableRow>
 
                 <TableRow
                     android:id="@+id/tableRow14"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView2"
@@ -142,49 +142,48 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="2px"
-            android:orientation="vertical"
-            android:background="#cccccc"
             android:layout_marginLeft="10px"
             android:layout_marginTop="10px"
-            android:layout_marginBottom="5px"
             android:layout_marginRight="10px"
-            >
+            android:layout_marginBottom="5px"
+            android:background="#cccccc"
+            android:orientation="vertical">
 
         </LinearLayout>
 
         <TableRow
             android:id="@+id/tableRow5"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/example3"
+                android:layout_marginTop="5px"
                 android:clickable="true"
                 android:onClick="textOnClick3"
-                android:layout_marginTop="5px" />
+                android:src="@drawable/example3" />
 
             <TableLayout
                 android:id="@+id/tableLayout3"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <TableRow
                     android:id="@+id/tableRow16"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/ExZagol3"
-                        android:textColor="#ffffff"
                         android:clickable="true"
                         android:onClick="textOnClick3"
+                        android:text="@string/ExZagol3"
+                        android:textColor="#ffffff"
                         android:textStyle="bold" />
 
                 </TableRow>
@@ -192,7 +191,7 @@
                 <TableRow
                     android:id="@+id/tableRow17"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView4"
@@ -211,57 +210,56 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="2px"
-            android:orientation="vertical"
-            android:background="#cccccc"
             android:layout_marginLeft="10px"
             android:layout_marginTop="10px"
-            android:layout_marginBottom="5px"
             android:layout_marginRight="10px"
-            >
+            android:layout_marginBottom="5px"
+            android:background="#cccccc"
+            android:orientation="vertical">
 
         </LinearLayout>
 
         <TableRow
             android:id="@+id/tableRow7"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/example4"
                 android:layout_marginTop="5px"
                 android:clickable="true"
-                android:onClick="textOnClick4" />
+                android:onClick="textOnClick4"
+                android:src="@drawable/example4" />
 
             <TableLayout
                 android:id="@+id/tableLayout4"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <TableRow
                     android:id="@+id/tableRow18"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/ExZagol4"
                         android:clickable="true"
                         android:onClick="textOnClick4"
+                        android:text="@string/ExZagol4"
                         android:textColor="#ffffff"
-                        android:textStyle="bold"  />
+                        android:textStyle="bold" />
 
                 </TableRow>
 
                 <TableRow
                     android:id="@+id/tableRow19"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView5"
@@ -280,57 +278,56 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="2px"
-            android:orientation="vertical"
-            android:background="#cccccc"
             android:layout_marginLeft="10px"
             android:layout_marginTop="10px"
-            android:layout_marginBottom="5px"
             android:layout_marginRight="10px"
-            >
+            android:layout_marginBottom="5px"
+            android:background="#cccccc"
+            android:orientation="vertical">
 
         </LinearLayout>
 
         <TableRow
             android:id="@+id/tableRow9"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
 
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/example5"
+                android:layout_marginTop="5px"
                 android:clickable="true"
                 android:onClick="textOnClick5"
-                android:layout_marginTop="5px" />
+                android:src="@drawable/example5" />
 
             <TableLayout
                 android:id="@+id/tableLayout5"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <TableRow
                     android:id="@+id/tableRow20"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/ExZagol5"
                         android:clickable="true"
                         android:onClick="textOnClick5"
+                        android:text="@string/ExZagol5"
                         android:textColor="#ffffff"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
 
                 </TableRow>
 
                 <TableRow
                     android:id="@+id/tableRow21"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView6"
@@ -349,48 +346,47 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="2px"
-            android:orientation="vertical"
-            android:background="#cccccc"
             android:layout_marginLeft="10px"
             android:layout_marginTop="10px"
-            android:layout_marginBottom="5px"
             android:layout_marginRight="10px"
-            >
+            android:layout_marginBottom="5px"
+            android:background="#cccccc"
+            android:orientation="vertical">
 
         </LinearLayout>
 
         <TableRow
             android:id="@+id/tableRow11"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
 
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/example6"
+                android:layout_marginTop="5px"
                 android:clickable="true"
                 android:onClick="textOnClick6"
-                android:layout_marginTop="5px" />
+                android:src="@drawable/example6" />
 
             <TableLayout
                 android:id="@+id/tableLayout6"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <TableRow
                     android:id="@+id/tableRow22"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/ExZagol6"
                         android:clickable="true"
                         android:onClick="textOnClick6"
+                        android:text="@string/ExZagol6"
                         android:textColor="#ffffff"
                         android:textStyle="bold" />
 
@@ -399,7 +395,7 @@
                 <TableRow
                     android:id="@+id/tableRow23"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView7"
@@ -418,47 +414,46 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="2px"
-            android:orientation="vertical"
-            android:background="#cccccc"
             android:layout_marginLeft="10px"
             android:layout_marginTop="10px"
-            android:layout_marginBottom="5px"
             android:layout_marginRight="10px"
-            >
+            android:layout_marginBottom="5px"
+            android:background="#cccccc"
+            android:orientation="vertical">
 
         </LinearLayout>
 
         <TableRow
             android:id="@+id/tableRow25"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/example7"
+                android:layout_marginTop="5px"
                 android:clickable="true"
                 android:onClick="textOnClick7"
-                android:layout_marginTop="5px"  />
+                android:src="@drawable/example7" />
 
             <TableLayout
                 android:id="@+id/tableLayout7"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <TableRow
                     android:id="@+id/tableRow26"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView16"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/ExZagol7"
                         android:clickable="true"
                         android:onClick="textOnClick7"
+                        android:text="@string/ExZagol7"
                         android:textColor="#ffffff"
                         android:textStyle="bold" />
 
@@ -467,15 +462,15 @@
                 <TableRow
                     android:id="@+id/tableRow27"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView17"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/ExText7"
                         android:clickable="true"
                         android:onClick="textOnClick7"
+                        android:text="@string/ExText7"
                         android:textColor="#ffffff" />
 
                 </TableRow>
@@ -486,21 +481,19 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="2px"
-            android:orientation="vertical"
-            android:background="#cccccc"
             android:layout_marginLeft="10px"
             android:layout_marginTop="10px"
-            android:layout_marginBottom="5px"
             android:layout_marginRight="10px"
-            >
+            android:layout_marginBottom="5px"
+            android:background="#cccccc"
+            android:orientation="vertical">
 
         </LinearLayout>
 
         <TableRow
             android:id="@+id/tableRow2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
-
+            android:layout_height="wrap_content">
 
 
             <ImageView
@@ -514,20 +507,20 @@
 
             <TableLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <TableRow
                     android:id="@+id/tableRow4"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView15"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/ExZagol8"
                         android:clickable="true"
                         android:onClick="textOnClick8"
+                        android:text="@string/ExZagol8"
                         android:textColor="#ffffff"
                         android:textStyle="bold" />
 
@@ -536,15 +529,15 @@
                 <TableRow
                     android:id="@+id/tableRow6"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView18"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/ExText8"
                         android:clickable="true"
                         android:onClick="textOnClick8"
+                        android:text="@string/ExText8"
                         android:textColor="#ffffff" />
 
                 </TableRow>
@@ -555,20 +548,19 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="2px"
-            android:orientation="vertical"
-            android:background="#cccccc"
             android:layout_marginLeft="10px"
             android:layout_marginTop="10px"
-            android:layout_marginBottom="5px"
             android:layout_marginRight="10px"
-            >
+            android:layout_marginBottom="5px"
+            android:background="#cccccc"
+            android:orientation="vertical">
 
         </LinearLayout>
 
         <TableRow
             android:id="@+id/tableRow8"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
 
             <ImageView
@@ -582,20 +574,20 @@
 
             <TableLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <TableRow
                     android:id="@+id/tableRow10"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView19"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/ExZagol9"
                         android:clickable="true"
                         android:onClick="textOnClick9"
+                        android:text="@string/ExZagol9"
                         android:textColor="#ffffff"
                         android:textStyle="bold" />
 
@@ -604,15 +596,15 @@
                 <TableRow
                     android:id="@+id/tableRow24"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:id="@+id/textView20"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/ExText9"
                         android:clickable="true"
                         android:onClick="textOnClick9"
+                        android:text="@string/ExText9"
                         android:textColor="#ffffff" />
 
                 </TableRow>
@@ -623,28 +615,26 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="2px"
-            android:orientation="vertical"
-            android:background="#cccccc"
             android:layout_marginLeft="10px"
             android:layout_marginTop="10px"
-            android:layout_marginBottom="5px"
             android:layout_marginRight="10px"
-            >
+            android:layout_marginBottom="5px"
+            android:background="#cccccc"
+            android:orientation="vertical">
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Info1"
                 android:layout_marginLeft="12px"
+                android:text="@string/Info1"
                 android:textSize="14dp" />
 
             <TextView
