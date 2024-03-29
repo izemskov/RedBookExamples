@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">OpenGL Red Book Examples</string>
+    <string name="ExZagol1">Example 1</string>
+    <string name="ExText1">OpenGL Init</string>
+
+    <string name="ExZagol2">Example 2</string>
+    <string name="ExText2">Rotating square</string>
+
+    <string name="ExZagol3">Example 3</string>
+    <string name="ExText3">Perspective projection</string>
+
+    <string name="ExZagol4">Example 4</string>
+    <string name="ExText4">Color</string>
+
+    <string name="ExZagol5">Example 5</string>
+    <string name="ExText5">Objects lighting</string>
+
+    <string name="ExZagol6">Example 6</string>
+    <string name="ExText6">Color overlay</string>
+
+    <string name="ExZagol7">Example 7</string>
+    <string name="ExText7">Fog</string>
+
+    <string name="ExZagol8">Example 8</string>
+    <string name="ExText8">Antialiasing</string>
+
+    <string name="ExZagol9">Example 9</string>
+    <string name="ExText9">3D color overlay</string>
+
+    <string name="Info1">Source code http://code.google.com/p/opengl-red-book-examples/</string>
+    <string name="Info2">Автор иконки приложения http://softicons.com/free-icons/designers/c55inator</string>
+</resources>
