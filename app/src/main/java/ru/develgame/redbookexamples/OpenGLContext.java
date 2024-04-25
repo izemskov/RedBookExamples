@@ -15,8 +15,8 @@ public class OpenGLContext extends Activity {
     public static final String EXAMPLE_NAME = "ExampleName";
     private GestureDetector gestureDetector;
 
-    private float tx = 0.0f;				//Old coordinate TouchScreenX
-    private float ty = 0.0f;				//Old coordinate TouchScreenY
+    private float tx = 0.0f;				// Old coordinate TouchScreenX
+    private float ty = 0.0f;				// Old coordinate TouchScreenY
 
     /** Called when the activity is first created. */
     @Override

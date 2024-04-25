@@ -106,7 +106,6 @@ public class Cube {
         gl.glNormalPointer(GL10.GL_FLOAT, 0, normalBfr);
         gl.glVertexPointer(3, GL10.GL_FLOAT, 0, vertexBfr);
 
-        //gl.glDrawArrays(GL10.GL_TRIANGLES, 0, vCount);
         gl.glDrawElements(GL10.GL_TRIANGLES, indices.length, GL10.GL_UNSIGNED_SHORT, indicesBfr);
         gl.glDisableClientState(GL10.GL_COLOR_MATERIAL);
         gl.glDisableClientState(GL10.GL_NORMAL_ARRAY);
